@@ -110,6 +110,8 @@
           border: none !important;
           background-color: #199E79 !important;
           color: #199E79 !important;
+          height: 48px !important;
+          border-radius: 30px !important;
         }
        .ftr {
        display: flex;
