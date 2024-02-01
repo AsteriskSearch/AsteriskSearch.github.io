@@ -73,6 +73,7 @@ body {
 }
 
 .gsc-input {
+    caret-color: #199E79 !important;
     text-align: left !important;
     font-family: 'Avenir' !important;
     border: none !important;
