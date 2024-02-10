@@ -63,6 +63,16 @@ html {
     text-decoration: none;
     color: #FFFFFF;
 }
+body {
+    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 body {
     display: flex;
