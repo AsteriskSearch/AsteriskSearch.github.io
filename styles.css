@@ -7,13 +7,13 @@
 */
 
 @media screen and (max-width: 500px) {
-    .logo {
+    .logo, .logoU {
         width: 95vw;
     }
 }
 
 @media screen and (min-width: 500px) {
-    .logo {
+    .logo, .logoU {
         width: 500px;
     }
 }
@@ -46,7 +46,16 @@
     bottom: calc(50vh + 50px);
     height: auto;
 }
-
+.logoU {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    padding: 0;
+    margin: auto;
+    bottom: 70%;
+    height: auto;
+}
 @font-face {
     font-family: 'JosefinSans-VariableFont_wght';
     src: url('JosefinSans-VariableFont_wght.ttf') format('truetype');
@@ -56,12 +65,21 @@
     font-family: 'Avenir';
     src: url('Avenir.ttc') format('truetype');
 }
-
+.topText {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 html {
     font-family: 'JosefinSans-VariableFont_wght';
     background-color: #3a3b3e;
     text-decoration: none;
     color: #FFFFFF;
+    text-rendering: geometricPrecision;
 }
 body {
     overflow: hidden;
@@ -135,7 +153,11 @@ body {
     color: #199E79 !important;
     height: 48px !important;
     border-radius: 30px !important;
-    width: 100px !important;
+    width: 70px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .ftr {
