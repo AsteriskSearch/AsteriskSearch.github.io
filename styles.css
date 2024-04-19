@@ -153,10 +153,10 @@ body {
     height: 48px !important;
     border-radius: 30px !important;
     width: 70px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
 }
 
 .ftr {
