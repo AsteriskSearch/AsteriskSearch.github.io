@@ -79,12 +79,11 @@ html {
     background-color: #3a3b3e;
     text-decoration: none;
     color: #FFFFFF;
-    text-rendering: geometricPrecision;
 }
 body {
     overflow: hidden;
     -ms-overflow-style: none;
-    scrollbar-width: none;
+    text-align: center;
 }
 
 body::-webkit-scrollbar {
@@ -107,7 +106,7 @@ body {
     border: none !important;
     height: 48px !important;
     width: 70vw !important;
-    font-size: 38px !important;
+    font-size: 34px !important;
     border-radius: 30px !important;
     outline: none !important;
     padding-left: 20px !important;
